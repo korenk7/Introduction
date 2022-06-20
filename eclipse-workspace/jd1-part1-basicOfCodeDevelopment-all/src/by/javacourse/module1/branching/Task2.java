@@ -1,6 +1,6 @@
 package by.javacourse.module1.branching;
 
-// Íàéòè max{min(a,b),min(c,d)};
+// Найти max{min(a,b),min(c,d)}
 public class Task2 {
 
 	public static void main(String[] args) {
