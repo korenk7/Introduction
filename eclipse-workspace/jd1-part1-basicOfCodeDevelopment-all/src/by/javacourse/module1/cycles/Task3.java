@@ -1,6 +1,6 @@
 package by.javacourse.module1.cycles;
 
-// найти сумму квадратов первых ста чисел
+// РЅР°Р№С‚Рё СЃСѓРјРјСѓ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… СЃС‚Р° С‡РёСЃРµР»
 public class Task3 {
 
 	public static void main(String[] args) {
