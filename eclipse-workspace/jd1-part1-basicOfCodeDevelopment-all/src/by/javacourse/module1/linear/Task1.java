@@ -1,6 +1,7 @@
 package by.javacourse.module1.linear;
 
-// Найти значение функции: z = ((a-3)*b/2)+c
+// Найти значение функции: z = ((a-3)*b/2)+c+2
+
 public class Task1 {
 
 	public static void main(String[] args) {
