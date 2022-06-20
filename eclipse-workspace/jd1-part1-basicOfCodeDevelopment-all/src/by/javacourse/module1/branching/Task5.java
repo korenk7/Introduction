@@ -1,7 +1,7 @@
 package by.javacourse.module1.branching;
 
-// вычислить значение функции x^2-3x+9 если х<=3;
-//							  1/(x^3+6) если x>3;
+// РІС‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё x^2-3x+9 РµСЃР»Рё С…<=3;
+//							  1/(x^3+6) РµСЃР»Рё x>3;
 import java.util.*;
 public class Task5 {
 	
@@ -13,7 +13,7 @@ public class Task5 {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Введите число х");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г® Гµ");
 		x = sc.nextDouble();
 		
 		if(x<=3) {
