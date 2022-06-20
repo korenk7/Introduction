@@ -1,7 +1,7 @@
 package by.javacourse.module1.cycles;
 
 import java.math.BigDecimal;
-// найти произведение квадратов первых 200 чисел
+// РЅР°Р№С‚Рё РїСЂРѕРёР·РІРµРґРµРЅРёРµ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… 200 С‡РёСЃРµР»
 public class Task4 {
 
 	public static void main(String[] args) {
