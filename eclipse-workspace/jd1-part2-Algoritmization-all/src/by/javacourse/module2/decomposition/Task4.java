@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Task4 {
 
 		// TODO Auto-generated method stub
-		// На плоскасти заданы своими координатами N точек. Написать метод, методы,
-		// определяющие между какими из пар точек
-		// самое большое расстояние. Координаты точек занести в массив.
+		// РќР° РїР»РѕСЃРєР°СЃС‚Рё Р·Р°РґР°РЅС‹ СЃРІРѕРёРјРё РєРѕРѕСЂРґРёРЅР°С‚Р°РјРё N С‚РѕС‡РµРє. РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ, РјРµС‚РѕРґС‹,
+		// РѕРїСЂРµРґРµР»СЏСЋС‰РёРµ РјРµР¶РґСѓ РєР°РєРёРјРё РёР· РїР°СЂ С‚РѕС‡РµРє
+		// СЃР°РјРѕРµ Р±РѕР»СЊС€РѕРµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ. РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РµРє Р·Р°РЅРµСЃС‚Рё РІ РјР°СЃСЃРёРІ.
 
 		public static void main(String[] args) {
 
@@ -21,17 +21,17 @@ public class Task4 {
 			double x2;
 			double y2;
 
-			System.out.println("Введите количество точек на плоскости");
+			System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕС‡РµРє РЅР° РїР»РѕСЃРєРѕСЃС‚Рё");
 			n = countChecking();
 
-			System.out.println("Количество элементов в массиве = " + n);
+			System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІРµ = " + n);
 			arrayOfx = new double[n];
 			arrayOfy = new double[n];
 
 			for (int i = 0; i < n; i++) {
-				System.out.println("Введите координату X" + (i + 1));
+				System.out.println("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚Сѓ X" + (i + 1));
 				arrayOfx[i] = coordinatesChecking();
-				System.out.println("Введите координату Y" + (i + 1));
+				System.out.println("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚Сѓ Y" + (i + 1));
 				arrayOfy[i] = coordinatesChecking();
 
 			}
@@ -45,8 +45,7 @@ public class Task4 {
 			x2 = 0;
 			y2 = 0;
 
-			for (int i = 0; i < n - 1; i++) { // досчитать красиво цикл. вывести координаты расстояния м/у которыми
-												// максимальные
+			for (int i = 0; i < n - 1; i++) { 
 				if (distanseCounting(arrayOfx[i], arrayOfx[i + 1], arrayOfy[i], arrayOfy[i + 1]) > Maxlength) {
 					Maxlength = distanseCounting(arrayOfx[i], arrayOfx[i + 1], arrayOfy[i], arrayOfy[i + 1]);
 					x1 = arrayOfx[i];
@@ -57,8 +56,8 @@ public class Task4 {
 				}
 			}
 
-			System.out.println("Максимальное расстояние между координатами = " + Maxlength);
-			System.out.println("Это расстояние между точками (" + x1 + " ; " + y1 + ") и (" + x2 + " ; " + y2 + ")");
+			System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ РјРµР¶РґСѓ РєРѕРѕСЂРґРёРЅР°С‚Р°РјРё = " + Maxlength);
+			System.out.println("Р­С‚Рѕ СЂР°СЃСЃС‚РѕСЏРЅРёРµ РјРµР¶РґСѓ С‚РѕС‡РєР°РјРё (" + x1 + " ; " + y1 + ") Рё (" + x2 + " ; " + y2 + ")");
 
 		}
 
