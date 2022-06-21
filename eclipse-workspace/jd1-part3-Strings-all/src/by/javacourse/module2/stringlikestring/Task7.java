@@ -3,7 +3,7 @@ package by.javacourse.module2.stringlikestring;
 import java.util.Scanner;
 
 public class Task7 {
-	// Вводится строка. Требуется удалить из неё все повторяющиеся символы и пробелы
+	// Р’РІРѕРґРёС‚СЃСЏ СЃС‚СЂРѕРєР°. РўСЂРµР±СѓРµС‚СЃСЏ СѓРґР°Р»РёС‚СЊ РёР· РЅРµС‘ РІСЃРµ РїРѕРІС‚РѕСЂСЏСЋС‰РёРµСЃСЏ СЃРёРјРІРѕР»С‹ Рё РїСЂРѕР±РµР»С‹
 	// (abc cde def) = abcdef
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
