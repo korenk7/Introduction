@@ -3,25 +3,25 @@ package by.javacourse.module2.decomposition;
 import java.util.Scanner;
 
 public class Task1 {
-	// Написать метод(методы)для нахождения наибольшего общего делителя
-	// и наименьшего общего кратного двух чисел
+	// РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(РјРµС‚РѕРґС‹)РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РЅР°РёР±РѕР»СЊС€РµРіРѕ РѕР±С‰РµРіРѕ РґРµР»РёС‚РµР»СЏ
+	// Рё РЅР°РёРјРµРЅСЊС€РµРіРѕ РѕР±С‰РµРіРѕ РєСЂР°С‚РЅРѕРіРѕ РґРІСѓС… С‡РёСЃРµР»
 	public static void main(String[] args) {
 		int n1;
 		int n2;
 		int nod;
 		int nok;
 
-		System.out.println("Введите первое натуральное число");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГЇГҐГ°ГўГ®ГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г®ГҐ Г·ГЁГ±Г«Г®");
 		n1 = console();
 
-		System.out.println("Введите второе натуральное число");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГўГІГ®Г°Г®ГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г®ГҐ Г·ГЁГ±Г«Г®");
 		n2 = console();
 
 		nod = nodFinding(n1, n2);
-		System.out.println("Наибольший общий делитель = " + nod);
+		System.out.println("ГЌГ ГЁГЎГ®Г«ГјГёГЁГ© Г®ГЎГ№ГЁГ© Г¤ГҐГ«ГЁГІГҐГ«Гј = " + nod);
 
 		nok = nokFinding(n1, n2, nod);
-		System.out.println("Наиеньшее общее кратное = " + nok);
+		System.out.println("ГЌГ ГЁГҐГ­ГјГёГҐГҐ Г®ГЎГ№ГҐГҐ ГЄГ°Г ГІГ­Г®ГҐ = " + nok);
 
 	}
 
