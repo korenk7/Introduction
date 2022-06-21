@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task10 {
-	// Дано натуральное число N. Написать метод(методы) для формирования массива,
-	// элементами которого являются цифры числа N
+	// Р”Р°РЅРѕ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ N. РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(РјРµС‚РѕРґС‹) РґР»СЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РјР°СЃСЃРёРІР°,
+	// СЌР»РµРјРµРЅС‚Р°РјРё РєРѕС‚РѕСЂРѕРіРѕ СЏРІР»СЏСЋС‚СЃСЏ С†РёС„СЂС‹ С‡РёСЃР»Р° N
 
 	public static void main(String[] args) {
 
@@ -13,12 +13,12 @@ public class Task10 {
 		int countOfDigits;
 		int[] array;
 
-		System.out.println("Введите значение натурального действительного N");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г­Г ГІГіГ°Г Г«ГјГ­Г®ГЈГ® Г¤ГҐГ©Г±ГІГўГЁГІГҐГ«ГјГ­Г®ГЈГ® N");
 		n = valueChecking();
 
 		countOfDigits = getCountsOfDigits(n);
 		System.out.println("N = " + n);
-		System.out.println("количество цифр = " + countOfDigits);
+		System.out.println("ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г¶ГЁГґГ° = " + countOfDigits);
 
 		array = arrayFilling(n, countOfDigits);
 		System.out.println(Arrays.toString(array));
