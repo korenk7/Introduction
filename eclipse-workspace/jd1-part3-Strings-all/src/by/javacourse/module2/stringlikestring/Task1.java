@@ -1,8 +1,8 @@
 package by.javacourse.module2.stringlikestring;
 
 public class Task1 {
-	// Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в
-	// нем.
+	// Р”Р°РЅ С‚РµРєСЃС‚ (СЃС‚СЂРѕРєР°). РќР°Р№РґРёС‚Рµ РЅР°РёР±РѕР»СЊС€РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґСЂСЏРґ РёРґСѓС‰РёС… РїСЂРѕР±РµР»РѕРІ РІ
+	// РЅРµРј.
 	public static void main(String[] args) {
 
 		String s = "A       pilot  word   in      the desert awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the word, \"draw me a sheep.\" And the pilot realizes that when life's events are too difficult to understand, there is no word but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readworders.";
