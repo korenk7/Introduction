@@ -1,7 +1,7 @@
 package by.javacourse.module2.stringlikestring;
 
 public class Task3 {
-	// проверить является ли заданное слово палиндромом
+	// РїСЂРѕРІРµСЂРёС‚СЊ СЏРІР»СЏРµС‚СЃСЏ Р»Рё Р·Р°РґР°РЅРЅРѕРµ СЃР»РѕРІРѕ РїР°Р»РёРЅРґСЂРѕРјРѕРј
 	public static void main(String[] args) {
 
 		String s = "radar";
