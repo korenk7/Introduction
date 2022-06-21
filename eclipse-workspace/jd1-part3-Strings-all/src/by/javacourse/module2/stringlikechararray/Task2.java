@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class Task2 {
 
-	// Заменить в строке все вхождения word на letter
+	// Р—Р°РјРµРЅРёС‚СЊ РІ СЃС‚СЂРѕРєРµ РІСЃРµ РІС…РѕР¶РґРµРЅРёСЏ word РЅР° letter
 	public static void main(String[] args) {
 
 		String s = "A pilot word in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the word, \"draw me a sheep.\" And the pilot realizes that when life's events are too difficult to understand, there is no word but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readworders.";
