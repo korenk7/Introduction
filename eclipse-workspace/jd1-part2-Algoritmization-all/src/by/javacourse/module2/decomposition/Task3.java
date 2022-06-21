@@ -3,20 +3,20 @@ package by.javacourse.module2.decomposition;
 import java.util.Scanner;
 
 public class Task3 {
-	// Вычислить площадь правильного шестиугольника стороной а, используя метод
-		// вычисления площади треугольника
+	// Р’С‹С‡РёСЃР»РёС‚СЊ РїР»РѕС‰Р°РґСЊ РїСЂР°РІРёР»СЊРЅРѕРіРѕ С€РµСЃС‚РёСѓРіРѕР»СЊРЅРёРєР° СЃС‚РѕСЂРѕРЅРѕР№ Р°, РёСЃРїРѕР»СЊР·СѓСЏ РјРµС‚РѕРґ
+		// РІС‹С‡РёСЃР»РµРЅРёСЏ РїР»РѕС‰Р°РґРё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
 		public static void main(String[] args) {
 
 			double a;
 			double triangleArea;
 
-			System.out.println("Введите длину стороны шестиугольника");
+			System.out.println("Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚РѕСЂРѕРЅС‹ С€РµСЃС‚РёСѓРіРѕР»СЊРЅРёРєР°");
 			a = console();
 
 			triangleArea = areaCalculating(a);
 
-			System.out.println("Площадь треугольника = " + triangleArea);
-			System.out.println("Площадь шестиугольника = "+ 6*triangleArea);
+			System.out.println("РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° = " + triangleArea);
+			System.out.println("РџР»РѕС‰Р°РґСЊ С€РµСЃС‚РёСѓРіРѕР»СЊРЅРёРєР° = "+ 6*triangleArea);
 
 		}
 
