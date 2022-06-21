@@ -3,7 +3,7 @@ package by.javacourse.module2.twodimensionalarray;
 import java.util.Scanner;
 
 public class Task15 {
-	// найдите наибольший элемент матрицы и замените все нечетные элементы на него
+	// РЅР°Р№РґРёС‚Рµ РЅР°РёР±РѕР»СЊС€РёР№ СЌР»РµРјРµРЅС‚ РјР°С‚СЂРёС†С‹ Рё Р·Р°РјРµРЅРёС‚Рµ РІСЃРµ РЅРµС‡РµС‚РЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ РЅР° РЅРµРіРѕ
 
 	public static void main(String[] args) {
 		int[][] array;
