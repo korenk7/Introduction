@@ -3,8 +3,8 @@ package by.javacourse.module2.twodimensionalarray;
 import java.util.Scanner;
 
 public class Task1 {
-	// Дана матрица. Вывести на экран все нечетные столбцы у которых
-	// первый элемент больше последнего
+	// Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ РІСЃРµ РЅРµС‡РµС‚РЅС‹Рµ СЃС‚РѕР»Р±С†С‹ Сѓ РєРѕС‚РѕСЂС‹С…
+	// РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ Р±РѕР»СЊС€Рµ РїРѕСЃР»РµРґРЅРµРіРѕ
 	public static void main(String[] args) {
 		int[][] array;
 		int numOfLines;
