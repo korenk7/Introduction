@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task1 {
-	// Дан массив названий переменных в camelCase. Преобразовать в snake_case
+	// Р”Р°РЅ РјР°СЃСЃРёРІ РЅР°Р·РІР°РЅРёР№ РїРµСЂРµРјРµРЅРЅС‹С… РІ camelCase. РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІ snake_case
 	public static void main(String[] args) {
 
 		String[] array = new String[] { "camelCaseFaaFooFaa", "tempArray", "checkVariable" };
