@@ -3,7 +3,7 @@ package by.javacourse.module2.twodimensionalarray;
 import java.util.Scanner;
 
 public class Task13 {
-	// отсортировать столбцы матрицы по возрастанию и убыванию значений элементов
+	// РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃС‚РѕР»Р±С†С‹ РјР°С‚СЂРёС†С‹ РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ Рё СѓР±С‹РІР°РЅРёСЋ Р·РЅР°С‡РµРЅРёР№ СЌР»РµРјРµРЅС‚РѕРІ
 	public static void main(String[] args) {
 		int[][] array;
 		int numOfLines;
