@@ -3,7 +3,7 @@ package by.javacourse.module2.onedimenarray;
 import java.util.Scanner;
 
 public class Task7 {
-	// дана последовательность чисел а1, а2, а3....а2n. Найти
+	// РґР°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ С‡РёСЃРµР» Р°1, Р°2, Р°3....Р°2n. РќР°Р№С‚Рё
 	// max(a1+a2n,a2+a2n-1,... an+an+1)
 
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Task7 {
 		int max;
 		int sum;
 
-		System.out.println("Введите количество элементов массива");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°");
 		n = console();
 
 		array = new int[2 * n];
