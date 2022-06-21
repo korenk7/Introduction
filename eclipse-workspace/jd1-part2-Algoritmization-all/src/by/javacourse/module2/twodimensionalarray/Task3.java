@@ -3,7 +3,7 @@ package by.javacourse.module2.twodimensionalarray;
 import java.util.Scanner;
 
 public class Task3 {
-// Дана матрица. Вывести на экран k-ю строку и p-й столбец матрицы
+// Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ k-СЋ СЃС‚СЂРѕРєСѓ Рё p-Р№ СЃС‚РѕР»Р±РµС† РјР°С‚СЂРёС†С‹
 	public static void main(String[] args) {
 		int[][] array;
 		int numOfLines;
