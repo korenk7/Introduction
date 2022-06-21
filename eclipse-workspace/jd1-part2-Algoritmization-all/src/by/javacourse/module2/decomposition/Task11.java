@@ -3,7 +3,7 @@ package by.javacourse.module2.decomposition;
 import java.util.Scanner;
 
 public class Task11 {
-	// Íàïèñàòü ìåòîä(û) îïðåäåëÿþùèå â êàêîì èç äâóõ ÷èñåë áîëüøå öèôð
+	// ÐÐ°Ð¿Ð¸ÑÐ°Ñ‚ÑŒ Ð¼ÐµÑ‚Ð¾Ð´(Ñ‹) Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»ÑÑŽÑ‰Ð¸Ðµ Ð² ÐºÐ°ÐºÐ¾Ð¼ Ð¸Ð· Ð´Ð²ÑƒÑ… Ñ‡Ð¸ÑÐµÐ» Ð±Ð¾Ð»ÑŒÑˆÐµ Ñ†Ð¸Ñ„Ñ€
 	public static void main(String[] args) {
 
 		int n1;
@@ -11,19 +11,19 @@ public class Task11 {
 		int n2;
 		int countOfDigits2;
 
-		System.out.println("Ââåäèòå çíà÷åíèå íàòóðàëüíîãî äåéñòâèòåëüíîãî N1");
+		System.out.println("Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã­Ã Ã²Ã³Ã°Ã Ã«Ã¼Ã­Ã®Ã£Ã® Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã®Ã£Ã® N1");
 		n1 = valueChecking();
 
-		System.out.println("Ââåäèòå çíà÷åíèå íàòóðàëüíîãî äåéñòâèòåëüíîãî N1");
+		System.out.println("Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã­Ã Ã²Ã³Ã°Ã Ã«Ã¼Ã­Ã®Ã£Ã® Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã®Ã£Ã® N1");
 		n2 = valueChecking();
 
 		countOfDigits1 = getCountsOfDigits(n1);
 		System.out.println("N1 = " + n1);
-		System.out.println("êîëè÷åñòâî öèôð = " + countOfDigits1);
+		System.out.println("ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¶Ã¨Ã´Ã° = " + countOfDigits1);
 
 		countOfDigits2 = getCountsOfDigits(n2);
 		System.out.println("N2 = " + n2);
-		System.out.println("êîëè÷åñòâî öèôð = " + countOfDigits2);
+		System.out.println("ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¶Ã¨Ã´Ã° = " + countOfDigits2);
 
 		if (countOfDigits1 > countOfDigits2) {
 			System.out.println("count of N1 = " + countOfDigits1 + " > count of N2 = " + countOfDigits2);
