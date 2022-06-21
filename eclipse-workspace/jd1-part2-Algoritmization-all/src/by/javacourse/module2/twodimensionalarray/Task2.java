@@ -3,7 +3,7 @@ package by.javacourse.module2.twodimensionalarray;
 import java.util.Scanner;
 
 public class Task2 {
-	// Дана матрица. Вывести на экран элементы, стоящие на диагонали
+	// Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ СЌР»РµРјРµРЅС‚С‹, СЃС‚РѕСЏС‰РёРµ РЅР° РґРёР°РіРѕРЅР°Р»Рё
 	public static void main(String[] args) {
 		int[][] array;
 		int numOfelements;
