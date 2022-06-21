@@ -3,8 +3,8 @@ package by.javacourse.module2.onedimenarray;
 import java.util.Scanner;
 
 public class Task4 {
-	// Даны действительные числа а1, а2, а3, аn. Поменять местами наименьший и
-	// наибольший элементы массива.
+	// Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° Р°1, Р°2, Р°3, Р°n. РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РЅР°РёРјРµРЅСЊС€РёР№ Рё
+	// РЅР°РёР±РѕР»СЊС€РёР№ СЌР»РµРјРµРЅС‚С‹ РјР°СЃСЃРёРІР°.
 
 	public static void main(String[] args) {
 		int array[];
@@ -15,7 +15,7 @@ public class Task4 {
 		int indexofmin;
 		
 
-		System.out.println("Введите количество элементов массива");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°");
 		n = console();
 
 		array = new int[n];
