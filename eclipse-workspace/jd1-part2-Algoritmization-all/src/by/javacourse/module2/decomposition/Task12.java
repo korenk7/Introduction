@@ -14,10 +14,10 @@ public class Task12 {
 
 		int[] array;
 
-		System.out.println("Ââåäèòå çíà÷åíèå íàòóðàëüíîãî äåéñòâèòåëüíîãî K");
+		System.out.println("Введите значение натурального действительного K");
 		k = valueChecking();
 
-		System.out.println("Ââåäèòå çíà÷åíèå íàòóðàëüíîãî äåéñòâèòåëüíîãî N");
+		System.out.println("Введите значение натурального действительногоî N");
 		n = valueChecking();
 
 		array = arrayFilling(k, n);
