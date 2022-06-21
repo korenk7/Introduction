@@ -3,9 +3,9 @@ package by.javacourse.module2.decomposition;
 import java.util.Scanner;
 
 public class Task9 {
-	// Даны числа X,Y,Z,T - длины сторон четырехугольника. Написать метод(ы)
-		// вычисления его площади если
-		// угол между сторонами X,Y прямой;
+	// Р”Р°РЅС‹ С‡РёСЃР»Р° X,Y,Z,T - РґР»РёРЅС‹ СЃС‚РѕСЂРѕРЅ С‡РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРєР°. РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(С‹)
+		// РІС‹С‡РёСЃР»РµРЅРёСЏ РµРіРѕ РїР»РѕС‰Р°РґРё РµСЃР»Рё
+		// СѓРіРѕР» РјРµР¶РґСѓ СЃС‚РѕСЂРѕРЅР°РјРё X,Y РїСЂСЏРјРѕР№;
 
 		public static void main(String[] args) {
 			double x;
@@ -15,18 +15,18 @@ public class Task9 {
 
 			double area;
 
-			System.out.println("Введите значение X");
+			System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ X");
 			x = valueOfLengthChecking();
-			System.out.println("Введите значение Y");
+			System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Y");
 			y = valueOfLengthChecking();
-			System.out.println("Введите значение Z");
+			System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Z");
 			z = valueOfLengthChecking();
-			System.out.println("Введите значение T");
+			System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ T");
 			t = valueOfLengthChecking();
 
 			area = areaCounting(x, y, z, t);
 
-			System.out.println("площадь четырехугольника = " + area);
+			System.out.println("РїР»РѕС‰Р°РґСЊ С‡РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРєР° = " + area);
 
 		}
 
@@ -54,8 +54,8 @@ public class Task9 {
 			return naturalValue;
 		}
 
-		// вычисляем площадь четырехугольника как сумму площади прямоугольного
-		// треугольника и площади треугольника по трем сторонам
+		// РІС‹С‡РёСЃР»СЏРµРј РїР»РѕС‰Р°РґСЊ С‡РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРєР° РєР°Рє СЃСѓРјРјСѓ РїР»РѕС‰Р°РґРё РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ
+		// С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° Рё РїР»РѕС‰Р°РґРё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РїРѕ С‚СЂРµРј СЃС‚РѕСЂРѕРЅР°Рј
 		public static double areaCounting(double x, double y, double z, double t) {
 			double gipotenuse;
 			double RectangualTriangleArea;
@@ -71,15 +71,15 @@ public class Task9 {
 
 		}
 
-		// разделяем четырехугольник на 2 треугольника вычисляем площадь треугольника с
-		// прямым углом
+		// СЂР°Р·РґРµР»СЏРµРј С‡РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРє РЅР° 2 С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РІС‹С‡РёСЃР»СЏРµРј РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° СЃ
+		// РїСЂСЏРјС‹Рј СѓРіР»РѕРј
 		public static double areaOfRectangularTriangleCounting(double x, double y) {
 
 			return x * y * 0.5;
 
 		}
 
-		// вычисляем площадь треугольника по формуле герона
+		// РІС‹С‡РёСЃР»СЏРµРј РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РїРѕ С„РѕСЂРјСѓР»Рµ РіРµСЂРѕРЅР°
 		public static double areaOfTriangleCounting(double x, double y, double gipotenuse) {
 			double halfPerimetr;
 
