@@ -1,8 +1,8 @@
 package by.javacourse.module2.stringlikechararray;
 
 public class Task5 {
-	// Удалить в строке все лишние пробелы, т.е серии подряд идущих пробелов
-	// заменить на одиночные пробелы. Крайние пробелы в строке удалить.
+	// РЈРґР°Р»РёС‚СЊ РІ СЃС‚СЂРѕРєРµ РІСЃРµ Р»РёС€РЅРёРµ РїСЂРѕР±РµР»С‹, С‚.Рµ СЃРµСЂРёРё РїРѕРґСЂСЏРґ РёРґСѓС‰РёС… РїСЂРѕР±РµР»РѕРІ
+	// Р·Р°РјРµРЅРёС‚СЊ РЅР° РѕРґРёРЅРѕС‡РЅС‹Рµ РїСЂРѕР±РµР»С‹. РљСЂР°Р№РЅРёРµ РїСЂРѕР±РµР»С‹ РІ СЃС‚СЂРѕРєРµ СѓРґР°Р»РёС‚СЊ.
 	public static void main(String[] args) {
 
 		String s = "  A pilot  in the 123   awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the word, \"draw me a sheep.\" And the pil345345345ot realizes that when life's events are too difficult to understand, 345 is no word but to succumb to their mysteries. He pulls out pencil and paper... And 234 begins this wise and enchanting fable that, in teaching the secret of what is really 234 in life, has changed forever the world for its readworders.";
