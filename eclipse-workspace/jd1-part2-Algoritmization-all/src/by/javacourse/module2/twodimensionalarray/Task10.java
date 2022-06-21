@@ -3,7 +3,7 @@ package by.javacourse.module2.twodimensionalarray;
 import java.util.Scanner;
 
 public class Task10 {
-	// Найти положительные элементы главной диагонали квадратной матрицы
+	// РќР°Р№С‚Рё РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹
 	public static void main(String[] args) {
 		int[][] array;
 		int numOfelements;
