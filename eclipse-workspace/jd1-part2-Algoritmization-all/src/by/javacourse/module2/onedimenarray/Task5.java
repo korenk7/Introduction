@@ -2,8 +2,8 @@ package by.javacourse.module2.onedimenarray;
 
 import java.util.Scanner;
 
-//Даны целые числа а1, а2, а3... аn
-//Вывести на печать те числа, для которых an>n
+//Р”Р°РЅС‹ С†РµР»С‹Рµ С‡РёСЃР»Р° Р°1, Р°2, Р°3... Р°n
+//Р’С‹РІРµСЃС‚Рё РЅР° РїРµС‡Р°С‚СЊ С‚Рµ С‡РёСЃР»Р°, РґР»СЏ РєРѕС‚РѕСЂС‹С… an>n
 
 public class Task5 {
 
@@ -12,7 +12,7 @@ public class Task5 {
 		int array[];
 		int n;
 
-		System.out.println("Введите количество элементов массива");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°");
 		n = console();
 
 		array = new int[n];
